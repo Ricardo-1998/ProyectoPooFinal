@@ -155,7 +155,7 @@ public class Player extends GameObject {
 
             if (tempObject.getId() == ID.Portal) {
 
-                if (j.getMisionesCompletadas().size()<=0) {
+                if (j.getMisionesCompletadas().size()<=4) {
 
                     if (getBounds().intersects(tempObject.getBounds())) {
                         x += velX * -1;
